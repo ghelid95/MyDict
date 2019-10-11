@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_verb" />
+    <EditText
+        android:id="@+id/text_verb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/verb_hint"/>
+    <EditText
+        android:id="@+id/text_verb_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/translate_hint_verb"/>
+    <CheckBox
+        android:id="@+id/check_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_verb_form"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ich"/>
+    <EditText
+        android:id="@+id/text_ich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_du"/>
+    <EditText
+        android:id="@+id/text_du"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_er_sie_es"/>
+    <EditText
+        android:id="@+id/text_er_sie_es"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_wir"/>
+    <EditText
+        android:id="@+id/text_wir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ihr"/>
+    <EditText
+        android:id="@+id/text_ihr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_sie"/>
+    <EditText
+        android:id="@+id/text_sie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_Sie"/>
+    <EditText
+        android:id="@+id/text_Sie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/add_verb_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_verb"/>
+</LinearLayout>

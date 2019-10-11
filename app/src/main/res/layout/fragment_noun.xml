@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_noun" />
+
+    <EditText
+        android:id="@+id/text_noun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/noun_hint" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_type"/>
+    <RadioGroup
+        android:id="@+id/type_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/type_radio_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/der_item"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/type_radio_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/das_item"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/type_radio_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/die_item"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_plural"/>
+    <EditText
+        android:id="@+id/text_plural"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/plural_hint"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_translate"/>
+    <EditText
+        android:id="@+id/text_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/translate_hint"/>
+
+    <Button
+        android:id="@+id/add_noun_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/add_noun" />
+
+</LinearLayout>
